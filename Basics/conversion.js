@@ -51,3 +51,30 @@ let marks=78;
 
 const marksinstring=String(marks);
 console.log(typeof marksinstring);
+
+
+
+
+// Operations
+
+console.table(["1"+2,  1+"2" , "1"+1+1, 1+1+"1", 1+"1"+1]);
+
+
+
+// Prefix and Postfix
+
+let x=3;
+const y=x++;
+
+console.log("the value of x=",x+" and the value of y is",y);
+
+
+let m=3;
+let n=++m;
+
+console.log("m=",m+" n=",n);
+
+// If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.
+
+// If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.
+
