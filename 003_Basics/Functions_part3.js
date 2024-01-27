@@ -20,3 +20,46 @@ var a=10;
 
 
 
+
+
+
+
+                                   // Guess the output
+
+            // function one(){
+            //   const website="hungryrats";
+
+            //   function two(){
+            //     const domain="www";
+            //     console.log(website);
+            //   }
+ 
+            //    console.log(domain);
+            //    two();
+
+
+            // }
+
+            // one();
+
+
+                   
+                             // Mini Hoisiting //
+
+
+
+        addone(5);                                          // this function executes before initillization if declare 
+
+        function addone(num){
+          return num+1;
+        }
+
+
+        addtwo(6);                                          // this functiom cannot access before initillization
+
+        const addtwo=function(num){
+          num+1;
+        }
+
+
+
