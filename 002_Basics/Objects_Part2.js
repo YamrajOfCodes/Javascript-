@@ -11,7 +11,7 @@ const useObject={
     }
 }
 
-console.log(useObject.Full_name?.First_Name);
+// console.log(useObject.Full_name?.First_Name);
 
 
 const obj1={
@@ -35,7 +35,7 @@ const obj3={
 //The Object.assign() static method copies all enumerable own properties from one or more source objects to a target object
 
 const obj4=Object.assign({},obj1,obj2);     // actually obj 1 and obj 2 {} madhe jaat aahe jar nahi del tar te obj 1 madhe jatil
-// console.log(obj4);
+console.log(obj4);
 
 
 

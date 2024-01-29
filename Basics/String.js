@@ -14,7 +14,7 @@ console.log(`${str1} my name is kundan`);     // also known as Template Literals
 
   // 1) const str="First method"
      const str=new String("Hello");
-    //  console.log(str);
+     console.log( str);
 
 
 
