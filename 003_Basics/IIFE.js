@@ -22,3 +22,9 @@ console.log(`${name} , welcome to you`);
 // doubled IIFE
 
 // write two iifi but evry iifi end must write ;
+
+
+
+
+
+// Another benefit of using IIFEs is performing asynchronous operations such as the setTimeout() method
