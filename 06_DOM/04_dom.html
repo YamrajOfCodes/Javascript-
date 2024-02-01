@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+const arr=[
+    {
+        color:'orange',
+        text:'orange'
+    },
+    {
+        color:'white',
+        text:'White'
+    },
+    {
+        color:'green',
+        text:'green'
+    },
+    
+]
+
+
+  const functions=(arr)=>{
+
+ arr.forEach((elements)=>{
+    const element=document.createElement('div');
+    element.style.height='200px'
+    element.style.backgroundColor=elements.color;
+    const add=document.createTextNode(`${elements.text}`);
+    element.appendChild(add);
+    element.style.fontSize="24px";
+    document.body.appendChild(element);
+ })
+
+  }
+
+
+   functions(arr);
+
+</script>
+</html>
