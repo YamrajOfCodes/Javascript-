@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        ul{
+            height: auto;
+        }
+        li{
+            padding: 10px 14px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="li">kundan</li>
+        <li>kalpesh</li>
+        <li>bhushan</li>
+        <li>amit</li>
+    </ul>
+</body>
+
+                               <!-- Events(which type of events you have to learned video available 01) -->
+
+
+
+
+                           <!-- Example of event bubbling (video available in explain 02)-->
+<script>
+    // const UL=document.querySelector("ul");
+    // const lielements=document.querySelector('.li');
+
+    // UL.addEventListener('click',(e)=>{
+    //     console.log('ul clicked');
+    // })
+
+    
+    // lielements.addEventListener('click',(e)=>{
+    //     console.log('li clicked');
+    // },false)            // event propogation false
+
+    // // bubbling mhnje bubble khalun varte jatat tasach aadhi inner print mag outer print jar tumhala te click kelyawar bubbling nahi pahije tar following are the method
+
+
+    // const secondliElement=document.querySelector('li:nth-child(2)');
+
+    // secondliElement.addEventListener('click',(e)=>{
+    //     e.stopPropagation();                               // this is the method
+    //     console.log('li is clicked')
+    // })
+
+
+              // Like preventDefault()  kontya pn yech preventdefalut haywato like
+              // a tag ch kam aahe ki link var jane tar preventdefalut krun te nhi honar
+
+
+
+
+
+
+                //    project click kara aani gayab kara
+
+ 
+    const UL=document.querySelector("ul");
+    
+    UL.addEventListener('click',(e)=>{
+        console.log(e.target.tagName)                                       // and also try parentnode
+        let displaynone=e.target
+        displaynone.remove();
+    })
+
+
+</script>
+</html>
