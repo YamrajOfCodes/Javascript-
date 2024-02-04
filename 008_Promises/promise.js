@@ -94,6 +94,17 @@
 
 
 
+                        
+
+                 // Fetch(video avl)
+
+                //  The fetch() method takes one mandatory argument, the path to the resource you want to fetch. It returns a Promise that resolves to the Response to that request — as soon as the server responds with headers — even if the server response is an HTTP error status.
+                //  You can also optionally pass in an init options object as the second argument (see Request).
+
+
+
+
+
 
 
             // async function getUsers(){
