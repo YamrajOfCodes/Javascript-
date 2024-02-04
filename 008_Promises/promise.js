@@ -63,12 +63,69 @@
 
             })
 
-            promise.then((user)=>{
+            // promise.then((user)=>{
                 
-                return user.username;
+            //     return user.username;
 
-            }).then((username)=>{
-                console.log(username)
-            }).catch((error)=>{
-                console.log(error);
-            })
+            // }).then((username)=>{
+            //     console.log(username)
+            // }).catch((error)=>{
+            //     console.log(error);
+            // })
+
+
+
+
+
+                       // Async await
+
+
+
+            // async function promiseConcuming(){
+            //   try{
+            //     const result=await promise;
+            //   console.log(result);
+            //   }catch(e){
+            //     console.log(e);
+            //   }
+            // }
+
+            // promiseConcuming();
+
+
+
+
+
+            // async function getUsers(){
+            
+            //   try {
+            //     const response=await fetch("https://jsonplaceholder.typicode.com/users");
+            //     const data=await response.json();
+            //     console.log(data);
+            //   } catch (error) {
+            //     console.log(error);
+            //   }
+            
+            // }
+            
+
+            // getUsers();
+
+
+
+
+
+
+                    // Previous method using Promise
+
+                     fetch("https://jsonplaceholder.typicode.com/users").then((response)=>{
+                      return response.json();
+                     }).then((result)=>{
+                      console.log(result);
+                     })
+                     .catch((error)=>{
+                      console.log(error);
+                     })
+                  
+
+                  
